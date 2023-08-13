@@ -1,0 +1,10 @@
+name: hbn_reading
+dependencies:
+  - pip
+  - ipykernel
+  - scikit-learn
+  - pandas
+  - seaborn 
+  - plotly
+  - tabulate
+  - notebook
