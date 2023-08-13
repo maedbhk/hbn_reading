@@ -1,5 +1,7 @@
-Reading Impairment in children recruited as part of the Healthy Brain Network initiative
+Reading Impairment in the Healthy Brain Network 
 ==============================
+
+In this project, we provide a summary description of participants with reading impairment in the [healthy brain network dataset](https://healthybrainnetwork.org/) and we also do predictive modeling to assess which phenotypic data (including clinical questionnaires) are most successful in classifying participants with a reading impairment from other groups.   
 
 First Steps
 ------------
@@ -70,6 +72,7 @@ Project Organization
     │   ├── Teacher-features-preprocessed.csv <- All features (preprocessed) for Teacher questionnaires
     │   ├── Teacher-features-raw.csv          <- All features (raw) for Teacher questionnaires
     │   ├── item-names-cleaned.csv            <- Dictionary linking questionnaire columns to question keys
+    │   ├── Data_Dictionaries.zip             <- Zipped folder containing data dictionaries (i.e. itemized breakdown of questions)
     │   └── models                            <- Top-level folder containing model output
 
 ### Code 
@@ -80,7 +83,6 @@ Project Organization
     │   ├── figures-Reading_Impairment.ipynb  <- Example notebook
     ├── references                            <- Project-relevant materials
     │   ├── Assessment_List_Jan2019.xlsx      <- List of all assessments administered by healthy brain network
-    │   ├── Data_Dictionaries.zip             <- Zipped folder containing data dictionaries (i.e. itemized breakdown of questions)
     ├── src                                   <- src folder (customized python scripts)
     │   ├── topic_modeling.py                 <- Some functions for doing topic modeling (used in `topic_modeling_HBN.ipynb`)
 
