@@ -5,7 +5,7 @@ In this project, we provide a summary description of participants with reading i
 
 See here for a [full assessment list](https://docs.google.com/spreadsheets/d/1sGb3ECGR47BzIWNZwzh4ARrjFaf5ByVA/edit?usp=sharing&ouid=110847987931723045299&rtpof=true&sd=true) administered as part of the Healthy Brain Network Initiative
 
-If you don't want to explore the data and would rather just read through the results, then check out **notebooks/figures-Reading_Impairment.ipynb** - all of the figures should be easy to visualize and I've written markdown code to provide brief description of each figure.
+If you don't want to explore the data and would rather just read through the results, then check out [this notebook](notebooks/figures-Reading_Impairment.ipynb) - all of the figures should be easy to visualize and I've written markdown code to provide brief description of each figure.
 
 If you want to explore the data/notebooks, then follow the steps outlined below. 
 
