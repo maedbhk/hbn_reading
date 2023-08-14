@@ -47,6 +47,9 @@ $ pip install -e .
 # make sure you are in top-level directory of repo
 $ cd ../hbn_reading
 
+# make sure conda env is activated
+$ conda activate hbn_reading
+
 # create kernel (virtual env for jupyter notebook)
 $ ipython kernel install --name "reading" --user # you can assign any name
 ```
