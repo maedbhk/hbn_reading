@@ -65,7 +65,7 @@ $ cd ../hbn_reading/notebooks
 # open the jupyter notebook
 $ jupyter notebook figures-Reading_Impairment.ipynb
 
-# once you have opened the notebook, make sure you choose the correct kernel "hbn" as it contains all of the python packages for this project
+# once you have opened the notebook, make sure you choose the correct kernel "reading" as it contains all of the python packages for this project
 ```
 
 Project Organization
