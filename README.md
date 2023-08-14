@@ -60,7 +60,7 @@ Notebooks
 > To access this jupyter notebook, run the following commands
 ```
 # first, make sure your virtual environment is activated
-$ conda activate hbn-reading
+$ conda activate hbn_reading
 
 # navigate to the notebooks directory
 $ cd ../hbn_reading/notebooks
