@@ -95,7 +95,8 @@ Project Organization
     ├── references                            <- Project-relevant materials
     │   ├── Assessment_List_Jan2019.xlsx      <- List of all assessments administered by healthy brain network
     ├── src                                   <- src folder (customized python scripts)
-    │   ├── topic_modeling.py                 <- Some functions for doing topic modeling (used in `topic_modeling_HBN.ipynb`)
+    │   ├── dataset_summary.py                
+    │   ├── model_summary.py         
 
 --------
 
