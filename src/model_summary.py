@@ -14,7 +14,8 @@ def load_model_results(dirn,
              models=['reading-basic_demographics-multiple-classifiers-models'],
              diagnosis_name='Specific Learning Disorder with Impairment in Reading',
              all_diagnoses=['Depressive Disorders', 'Anxiety Disorders', 'Autism Spectrum Disorder', 'No Diagnosis Given', 'ADHD'],
-             diagnosis_file='Clinical_Diagnosis_Demographics.csv'
+             diagnosis_file='Clinical_Diagnosis_Demographics.csv',
+             save=True
             ):
 
     # hard code model diretory
@@ -29,6 +30,11 @@ def load_model_results(dirn,
         df.loc[~df['category_new'].isin(all_diagnoses), 'category_new'] = 'All Other Diagnoses'
         df['model_name'] = model
         df_all = pd.concat([df_all, df])
+
+        # save model summary to disk
+        if save:
+            fpath = os.path.join(dirn, 'models', model + '.csv')
+            df.to_csv(os.path.join(fpath), index=False)
 
     return df_all
 

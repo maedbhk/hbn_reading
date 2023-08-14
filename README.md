@@ -5,9 +5,14 @@ In this project, we provide a summary description of participants with reading i
 
 See here for a [full assessment list](https://docs.google.com/spreadsheets/d/1sGb3ECGR47BzIWNZwzh4ARrjFaf5ByVA/edit?usp=sharing&ouid=110847987931723045299&rtpof=true&sd=true) administered as part of the Healthy Brain Network Initiative
 
-If you don't want to explore the data and would rather just read through the results, then check out [this notebook](notebooks/figures-Reading_Impairment.ipynb) - all of the figures should be easy to visualize and I've written markdown code to provide brief description of each figure.
+Check out [this presentation](https://docs.google.com/presentation/d/1GWq6N5Z3JI3PlOW0oC9u_d_4LYYDyPDER8ijxhtzRiY/edit?usp=sharing) to see some of the preliminary results. 
 
-If you want to explore the data/notebooks, then follow the steps outlined below. 
+The accompanying [notebook](notebooks/figures-Reading_Impairment.ipynb) contains all of the figures, you can also run this notebook by following the steps outlined below. 
+
+The data are stored on [google drive](https://drive.google.com/drive/folders/1yx125fAnoaHPTg9o2yI63uHJih9vEEA3?usp=sharing)
+
+> Note: this is a work-in-progress, there are more models running (they sometimes take 1-2 days of computing time), I will update the notebook and the presentation as more results come in. 
+
 
 First Steps
 ------------
@@ -67,7 +72,7 @@ Project Organization
 ------------
 
 ### Data
-> Note: **hbn_reading** data folder is stored on Google Drive: 
+> Note: **hbn_reading** data folder is stored on [Google Drive](https://drive.google.com/drive/folders/1yx125fAnoaHPTg9o2yI63uHJih9vEEA3?usp=drive_link): 
 > I suggest downloading the google drive folder (it's not that big) and work locally OR there are python plugins that allow you to access google drive folders from jupyter notebooks
 
     ├── data
